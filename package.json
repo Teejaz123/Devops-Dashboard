@@ -1,0 +1,25 @@
+{
+  "name": "devops-dashboard",
+  "version": "1.0.0",
+  "description": "A simple, responsive web-based DevOps dashboard that visualizes key metrics using HTML, CSS, and JavaScript. Designed as a foundational monitoring interface to help teams track application health, deployment activity, and infrastructure status in real time.",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Teejaz123/Devops-Dashboard.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Teejaz123/Devops-Dashboard/issues"
+  },
+  "homepage": "https://github.com/Teejaz123/Devops-Dashboard#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0"
+  }
+}
