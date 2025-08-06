@@ -20,6 +20,7 @@
   "homepage": "https://github.com/Teejaz123/Devops-Dashboard#readme",
   "dependencies": {
     "cors": "^2.8.5",
-    "express": "^5.1.0"
+    "express": "^5.1.0",
+    "undici": "^7.13.0"
   }
 }

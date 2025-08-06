@@ -2,6 +2,7 @@ const express = require('express');
 const os = require('os');
 const cors = require('cors');
 const path = require('path');
+const { fetch } = require('undici');
 
 const app = express();
 app.use(cors());
@@ -25,7 +26,7 @@ app.get('/api/metrics', (req, res) => {
 // NEW: Jenkins job status endpoint
 app.get('/api/jenkins-job', async (req, res) => {
   const jobName = req.query.job || 'Thenyx1';
-  const jenkinsUrl = `http://localhost:8080/job/${jobName}/lastBuild/api/json`;
+  const jenkinsUrl = `http://localhost:8080/job/${Thenyx1}/lastBuild/api/json`;
   const username = 'Thenyx';
   const apiToken = '11e6cae4c75136924bc32308ffe652a596';
 
